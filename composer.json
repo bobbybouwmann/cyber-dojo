@@ -1,0 +1,19 @@
+{
+    "name": "bobbybouwmann/cyber-dojo",
+    "description": "Puzzles from http://cyber-dojo.org",
+    "require": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bobby Bouwmann",
+            "email": "bobbybouwmann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
