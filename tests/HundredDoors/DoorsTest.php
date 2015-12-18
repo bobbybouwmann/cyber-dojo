@@ -71,4 +71,5 @@ class DoorsTest extends PHPUnit_Framework_TestCase
             $this->assertFalse($doors->door($door));
         }
     }
+
 }

@@ -55,4 +55,5 @@ class Doors
     {
         return $this->doors[$number - 1];
     }
+
 }
